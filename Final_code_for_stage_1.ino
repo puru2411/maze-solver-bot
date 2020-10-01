@@ -147,25 +147,6 @@ void LSR() {    // for junction points
     turnLeft();
   }
 
-
-  /*else if( ir[7] && ir[6]){                     // case'3' or case'5'
-    //////Serial.println("case '3' or case '5'");
-    analogWrite(ML1, v);
-    analogWrite(ML2, 0);
-    analogWrite(MR1, v);
-    analogWrite(MR2, 0);
-    delay(50);
-    readSensors();
-
-      if(ir[0] && ir[1] && ir[3] && ir[4] && ir[6] && ir[7]){
-         done();
-      }
-      else{
-        delay(leapTime-50);
-        turnLeft();
-      }
-    }
-  */
   else if (irr[0] || irr[1] ) {              // case '4' or case'6'  and one more hiden case to be find!
     if (digitalRead(ir1) || digitalRead(ir2) || digitalRead(ir3) || digitalRead(ir4) || digitalRead(ir5) || digitalRead(ir6) || digitalRead(ir7) || digitalRead(ir8)) {
       //////Serial.println("case '4' \n stright");
@@ -196,7 +177,7 @@ void done() {
   done();
 }
 
-/*void straight(){ ////////////////////////////////////////////////////////////////////////////////////////
+/*void straight(){ //////////////////////////////////////////////////////////////////////////////////////// without PID
 
   if(ir[3]==1 && ir[4] ==1)
   {
