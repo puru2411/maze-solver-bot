@@ -1,7 +1,7 @@
 # maze-solver-bot
 
-Qthe bot is fully designed for the event maze explorer in technex-20 IIT BHU.
+the bot is fully designed for the event maze explorer in technex-20 IIT BHU.
 
-@see the problem statement for detail
+see the problem statement for detail
 
-@link of the video ----->  https://youtu.be/cMjCiNqAYVQ
+link of the video ----->  https://youtu.be/cMjCiNqAYVQ
